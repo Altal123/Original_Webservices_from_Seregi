@@ -11,10 +11,10 @@ import java.awt.*;
 @SOAPBinding(style = Style.RPC)
 public interface ImageServer{
 
-    //download a image from server
+    //download an image from server
     @WebMethod Image downloadImage(String name);
 
-    //update image to server
+    //update an image to server
     @WebMethod String uploadImage(Image data);
 
 }

@@ -7,7 +7,7 @@ import javax.xml.ws.Service;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class SoapClient {
+public class HelloWorldClient {
 
     public static void main(String[] args) throws MalformedURLException {
 
@@ -21,6 +21,6 @@ public class SoapClient {
 
         HelloWorld hello = service.getPort(HelloWorld.class);
 
-        System.out.println(hello.getHelloWorldAsString("Sergii"));
+        System.out.println(hello.getHelloWorldAsString("Sani4"));
     }
 }

@@ -23,8 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="soap-clien" />
+        <module name="soap-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="soap-client" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

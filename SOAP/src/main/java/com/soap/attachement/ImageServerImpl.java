@@ -18,7 +18,7 @@ public class ImageServerImpl implements ImageServer{
 
         try {
 
-            File image = new File("D:\\Java\\Web_Services\\SOAP\\soap\\src\\main\\resources\\" + name);
+            File image = new File("D:\\Lessons_Selenium_Bionics\\Webservices\\Original_Webservices_from_Seregi\\SOAP\\src\\main\\resources" + name);
             return ImageIO.read(image);
 
         } catch (IOException e) {
